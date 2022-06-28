@@ -1,0 +1,17 @@
+{
+  "name": "@exb/license-checker",
+  "version": "1.0.0",
+  "description": "Generate a license data csv file based on each npm module within basepath",
+  "main": "license-check.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "license-checker": "^25.0.1",
+    "read-dir-deep": "^7.0.1"
+  }
+}
